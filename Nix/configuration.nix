@@ -205,6 +205,7 @@ in
     jetbrains-mono
     nerd-fonts.jetbrains-mono
     librewolf
+    firefox
     spotify
     discord
     swaybg
@@ -239,6 +240,7 @@ in
     p7zip
     nyancat
     gcc
+    nasm
     libc
   ]) ++ [
     sddm-astronaut
