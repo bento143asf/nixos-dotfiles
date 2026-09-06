@@ -1,0 +1,35 @@
+{
+  "logo": {
+      "source": "/home/et/.config/fastfetch/nixos.png",
+      "height": 19
+    },
+  "modules": [
+    "break",
+    {
+      "type": "os",
+      "key": "   OS",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "kernel",
+      "key": "   Kernel",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "wm",
+      "key": "   WM",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "memory",
+      "key": "   Memory",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "disk",
+      "key": "   Disk",
+      "keyColor": "cyan"
+    },
+    "break"
+  ]
+}
