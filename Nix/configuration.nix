@@ -191,6 +191,7 @@ in
     fuzzel
     drawing
     pinta
+    tree-sitter
     kitty
     rofi
     kdePackages.qt5compat
