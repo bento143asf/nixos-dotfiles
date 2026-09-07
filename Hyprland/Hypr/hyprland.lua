@@ -26,7 +26,6 @@ hl.monitor({
 -- PROGRAMAS PADRÃO
 local terminal    = "kitty"
 local fileManager = "dolphin"
-local menu        = "rofi"
 
 -- INICIALIZAÇÃO AUTOMÁTICA (AUTOSTART DEFINITIVO)
 hl.on("hyprland.start", function () 
@@ -261,7 +260,7 @@ hl.gesture({
 local mainMod = "SUPER"
 
 -- Aplicativos e Menu
-hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("rofi -show drun"))
+hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("quickshell -c launcher"))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("dolphin"))
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + C", hl.dsp.window.close())

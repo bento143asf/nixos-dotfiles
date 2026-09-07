@@ -1,0 +1,4 @@
+singleton Theme 1.0 Theme.qml
+singleton PinStore 1.0 PinStore.qml
+Launcher 1.0 Launcher.qml
+AppEntry 1.0 AppEntry.qml

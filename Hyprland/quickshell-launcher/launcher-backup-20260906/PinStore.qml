@@ -10,7 +10,7 @@ QtObject {
     property var pinned: []
 
     property FileView _file: FileView {
-        path: Quickshell.env("HOME") + "/.config/quickshell/pinned.json"
+        path: Quickshell.env("HOME") + "/.config/quickshell/launcher/pinned.json"
 
         onLoaded: {
             try {
