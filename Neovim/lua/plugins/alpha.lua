@@ -20,7 +20,7 @@ return {
 
     -- Função customizada para pedir o nome do arquivo antes de criar
     local function create_new_file()
-        vim.ui.input({ prompt = "📄 Enter file name: " }, function(input)
+        vim.ui.input({ prompt = " Enter file name: " }, function(input)
             if input == nil or input == "" then
                 return 
             end
