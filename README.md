@@ -18,7 +18,7 @@ It's just my setup.
 
 ---
 
-### Quickshell Topbar — Beta
+### Quickshell Topbar (unfinished)
 
 ![Quickshell Topbar Beta](Screenshots/topbar-beta.png)
 
