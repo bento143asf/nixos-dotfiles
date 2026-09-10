@@ -1,8 +1,11 @@
+````markdown
 # NixOS Dotfiles
 
 > My personal **NixOS + Hyprland** desktop configuration.
 
 This repository is mainly a place to keep my configuration **version-controlled and organized**, while making it public for anyone who happens to find something useful here.
+
+This is **not a configuration made for popularity, stars, or ricing competitions**. It's simply my personal setup, shared publicly.
 
 ---
 
@@ -16,7 +19,7 @@ This repository is mainly a place to keep my configuration **version-controlled 
 
 ### Quickshell Topbar (unfinished)
 
-![Quickshell Topbar Beta](Screenshots/topbar-beta.png)
+![Quickshell Topbar](Screenshots/topbar-beta.png)
 
 ---
 
@@ -32,9 +35,9 @@ This repository is mainly a place to keep my configuration **version-controlled 
 
 ---
 
-## What's Inside (simplified)
+## What's Inside
 
-```
+```text
 Nix-Dots/
 ├── Hyprland/
 │   ├── Hypr/
@@ -54,7 +57,7 @@ Nix-Dots/
     ├── fastfetch/
     ├── fish/
     └── kitty/
-```
+````
 
 ---
 
@@ -70,7 +73,7 @@ Includes:
 * Quickshell integration
 * Various desktop behavior tweaks
 
-**All Hyprland config is at only 1 file, maybe I'll change it later**.
+**The entire Hyprland configuration is currently contained in a single file. I may change this later.**
 
 ---
 
@@ -81,7 +84,7 @@ The repository currently contains two main Quickshell components:
 * **Topbar**
 * **Launcher**
 
-Topbar is still under development and should be considered **experimental**.
+The Topbar is still under development and should be considered **unfinished and experimental**.
 
 ---
 
@@ -102,15 +105,16 @@ It currently includes things such as:
 
 ### Terminal
 
-* **Shell: Fish**
-* **Terminal: Kitty**
-* **Fastfetch**
+* **Shell:** Fish
+* **Terminal:** Kitty
+* **System information:** Fastfetch
 
 ---
 
 ## Main Keybinds
 
 These are some of the main Hyprland shortcuts:
+
 |   Keybind   | Action                                          |
 | :---------: | ----------------------------------------------- |
 | `Super + Q` | Open terminal                                   |
@@ -139,6 +143,8 @@ Some parts of the configuration are written in **Brazilian Portuguese (`pt-BR`)*
 
 This includes some comments, naming, and configuration-related text.
 
+I may translate or clean these up in the future, but for now they remain as part of my personal setup.
+
 ---
 
 ## NixOS & Flakes
@@ -152,6 +158,8 @@ I may eventually add:
 * `flake.nix`
 * A more modular Nix structure
 * Home Manager
+
+Nothing is set in stone, though. I'll add these if they actually make sense for the configuration.
 
 ---
 
@@ -195,9 +203,13 @@ Some things I *might* work on in the future:
 * Improve documentation
 * Add more reusable modules
 
-These aren't commitments, the repository will simply evolve alongside my desktop.
+These aren't commitments. The repository will simply evolve alongside my desktop.
 
 Some things will get removed, rewritten, broken, fixed, or replaced.
 
 ---
+
+*Built for myself. Shared publicly.*
+
+```
 
