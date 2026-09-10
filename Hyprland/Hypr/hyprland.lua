@@ -287,9 +287,9 @@ hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO
 -- Fn + F3 (Aumentar volume de 2% em 2%)
 hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"), { e = true })
 -- Fn + F6 (Diminuir brilho da tela)
-hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl set 10%-"), { e = true })
+hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl set 5%-"), { e = true })
 -- Fn + F7 (Aumentar brilho da tela)
-hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("brightnessctl set 10%+"), { e = true })
+hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("brightnessctl set 5%+"), { e = true })
 -- Fn + F10 (Print por região para recortar/redimensionar por padrão)
 hl.bind("XF86Search", hl.dsp.exec_cmd("grimblast copysave area ~/Imagens/$(date +'%Y-%m-%d_%H-%M-%S').png"))
 
