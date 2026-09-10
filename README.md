@@ -32,7 +32,7 @@ This repository is mainly a place to keep my configuration **version-controlled 
 
 ---
 
-## What's Inside
+## What's Inside (simplified)
 
 ```
 Nix-Dots/
