@@ -50,14 +50,12 @@ return {
 
     -- 2. BOTÕES COM LINHA SUPERIOR E INFERIOR (Sem as laterais)
     dashboard.section.buttons.val = {
-        { type = "text", val = "────────────────────────────────────────", opts = { position = "center", hl = "Comment" } },
         { type = "padding", val = 1 }, 
         menu_button("🔍", "Find File", "Telescope find_files"),
         menu_button("📄", "New File", create_new_file),
         menu_button("🔌", "Manage Plugins (Lazy)", "Lazy"),
         menu_button("❌", "Quit", "qa"),
         { type = "padding", val = 1 }, 
-        { type = "text", val = "────────────────────────────────────────", opts = { position = "center", hl = "Comment" } },
     }
 
     -- 3. FOOTER PERSONALIZADO (Plugins + Assinatura em Itálico com 8 espaços de recuo)

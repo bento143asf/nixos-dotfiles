@@ -1,0 +1,17 @@
+singleton Colors 1.0 Colors.qml
+Bar 1.0 Bar.qml
+Popup 1.0 Popup.qml
+NixButton 1.0 NixButton.qml
+Workspaces 1.0 Workspaces.qml
+MediaPlayer 1.0 MediaPlayer.qml
+MediaIconButton 1.0 MediaIconButton.qml
+ChipIcon 1.0 ChipIcon.qml
+SystemStats 1.0 SystemStats.qml
+Brightness 1.0 Brightness.qml
+Volume 1.0 Volume.qml
+DeviceList 1.0 DeviceList.qml
+Wifi 1.0 Wifi.qml
+Bluetooth 1.0 Bluetooth.qml
+StatusPill 1.0 StatusPill.qml
+ClockCalendar 1.0 ClockCalendar.qml
+singleton Osd 1.0 Osd.qml

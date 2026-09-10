@@ -2,7 +2,7 @@
 
 let
   sddm-astronaut = pkgs.sddm-astronaut.override {
-    embeddedTheme = "japanese_aesthetic";
+    embeddedTheme = "pixel_sakura";
   };
 in
 {
@@ -178,6 +178,7 @@ in
   };
 
   nix.settings.auto-optimise-store = true;
+  
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = (with pkgs; [
@@ -192,7 +193,11 @@ in
     drawing
     pinta
     tree-sitter
+    flatpak-builder
+    qbittorrent
     kitty
+    peaclock
+    lm_sensors
     rofi
     kdePackages.qt5compat
     vscode
@@ -204,7 +209,6 @@ in
     montserrat
     jetbrains-mono
     nerd-fonts.jetbrains-mono
-    librewolf
     firefox
     spotify
     discord
@@ -219,7 +223,6 @@ in
     pywal
     quickshell
     qt6.qtdeclarative
-    waybar
     brightnessctl
     grimblast
     papirus-icon-theme
