@@ -208,6 +208,4 @@ Some things will get removed, rewritten, broken, fixed, or replaced.
 
 *Built for myself. Shared publicly.*
 
-```
-
 **maintained by 143.**
