@@ -190,7 +190,7 @@ If something doesn't work on your machine, you'll probably need to adapt it.
 
 ## Future Plans
 
-Some things I *might* work on in the future:
+Some things I might work on in the future:
 
 * Add a Nix flake
 * Improve the Quickshell launcher
@@ -205,7 +205,5 @@ These aren't commitments. The repository will simply evolve alongside my desktop
 Some things will get removed, rewritten, broken, fixed, or replaced.
 
 ---
-
-*Built for myself. Shared publicly.*
 
 **maintained by 143.**
