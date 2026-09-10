@@ -1,7 +1,6 @@
-````markdown
 # NixOS Dotfiles
 
-> My personal **NixOS + Hyprland** desktop configuration.
+> My **NixOS + Hyprland** desktop configuration.
 
 This repository is mainly a place to keep my configuration **version-controlled and organized**, while making it public for anyone who happens to find something useful here.
 
@@ -35,7 +34,7 @@ This is **not a configuration made for popularity, stars, or ricing competitions
 
 ---
 
-## What's Inside
+## What's Inside (simplified)
 
 ```text
 Nix-Dots/
@@ -89,8 +88,6 @@ The Topbar is still under development and should be considered **unfinished and 
 ---
 
 ### Neovim
-
-My personal Neovim configuration.
 
 It currently includes things such as:
 
