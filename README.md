@@ -34,6 +34,7 @@ This repository is mainly a place to keep my configuration **version-controlled 
 
 ## What's Inside
 
+```
 Nix-Dots/
 ├── Hyprland/
 │   ├── Hypr/
@@ -53,6 +54,7 @@ Nix-Dots/
     ├── fastfetch/
     ├── fish/
     └── kitty/
+```
 
 ---
 
