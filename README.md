@@ -2,11 +2,7 @@
 
 > My personal **NixOS + Hyprland** desktop configuration.
 
-A collection of my personal dotfiles for my daily desktop environment.  
 This repository is mainly a place to keep my configuration **version-controlled and organized**, while making it public for anyone who happens to find something useful here.
-
-**This is not a popularity-focused project, or a plug-and-play configuration.**  
-It's just my setup.
 
 ---
 
@@ -38,7 +34,6 @@ It's just my setup.
 
 ## What's Inside
 
-```text
 Nix-Dots/
 ├── Hyprland/
 │   ├── Hypr/
@@ -58,11 +53,10 @@ Nix-Dots/
     ├── fastfetch/
     ├── fish/
     └── kitty/
-````
+
+---
 
 ### Hyprland
-
-My main **Wayland compositor** configuration.
 
 Includes:
 
@@ -74,18 +68,24 @@ Includes:
 * Quickshell integration
 * Various desktop behavior tweaks
 
+**All Hyprland config is at only 1 file, maybe I'll change it later**.
+
+---
+
 ### Quickshell
 
 The repository currently contains two main Quickshell components:
 
-* **Topbar** — a custom top bar with workspaces, system statistics, Wi-Fi, Bluetooth, volume, brightness, media controls, clock, and other modules.
-* **Launcher** — a custom application launcher with support for pinned applications.
+* **Topbar**
+* **Launcher**
 
-Both are still under development and should be considered **beta / experimental**.
+Topbar is still under development and should be considered **experimental**.
+
+---
 
 ### Neovim
 
-My personal Neovim configuration, written in **Lua**.
+My personal Neovim configuration.
 
 It currently includes things such as:
 
@@ -93,15 +93,15 @@ It currently includes things such as:
 * Autocompletion
 * Treesitter
 * Telescope
-* Themes
+* Dracula Theme
 * Various quality-of-life plugins
+
+---
 
 ### Terminal
 
-My terminal environment is built around:
-
-* **Fish**
-* **Kitty**
+* **Shell: Fish**
+* **Terminal: Kitty**
 * **Fastfetch**
 
 ---
@@ -109,7 +109,6 @@ My terminal environment is built around:
 ## Main Keybinds
 
 These are some of the main Hyprland shortcuts:
-
 |   Keybind   | Action                                          |
 | :---------: | ----------------------------------------------- |
 | `Super + Q` | Open terminal                                   |
@@ -138,8 +137,6 @@ Some parts of the configuration are written in **Brazilian Portuguese (`pt-BR`)*
 
 This includes some comments, naming, and configuration-related text.
 
-I may translate or clean these up in the future, but for now I'm keeping them as they naturally exist in my personal setup.
-
 ---
 
 ## NixOS & Flakes
@@ -153,9 +150,6 @@ I may eventually add:
 * `flake.nix`
 * A more modular Nix structure
 * Home Manager
-* Additional Nix tooling
-
-But there is no guarantee that these will be added. I'll introduce them if they actually make sense for the configuration.
 
 ---
 
@@ -170,7 +164,6 @@ Some parts are stable, while others are still experimental or have known issues.
 Current rough edges include:
 
 * Quickshell components still being developed
-* UI bugs
 * Incomplete modules
 * Hardware-specific configuration
 * Configuration that hasn't been fully generalized
@@ -179,19 +172,6 @@ Current rough edges include:
 So, if something doesn't work, **that's not necessarily a surprise**.
 
 ---
-
-## Philosophy
-
-There isn't a complicated philosophy behind this repository.
-
-It's **my desktop**.
-
-I wanted a place to:
-
-1. Keep my configuration backed up and version-controlled.
-2. Experiment with my setup.
-3. Learn from the things I'm building.
-4. Make the configuration publicly available.
 
 If you find something useful here, feel free to use it.
 
@@ -205,25 +185,17 @@ If something doesn't work on your machine, you'll probably need to adapt it.
 
 Some things I *might* work on in the future:
 
-* [ ] Add a Nix flake
-* [ ] Improve the Quickshell topbar
-* [ ] Finish the Quickshell launcher
-* [ ] Fix remaining UI bugs
-* [ ] Clean up the configuration structure
-* [ ] Reduce hardware-specific assumptions
-* [ ] Improve documentation
-* [ ] Add more reusable modules
+* Add a Nix flake
+* Improve the Quickshell launcher
+* Finish the Quickshell topbar
+* Clean up the configuration structure
+* Reduce hardware-specific assumptions
+* Improve documentation
+* Add more reusable modules
 
-These aren't commitments — the repository will simply evolve alongside my desktop.
-
----
-
-## Final Note
-
-This configuration is a snapshot of **how I currently use Linux**.
-
-It's going to change.
+These aren't commitments, the repository will simply evolve alongside my desktop.
 
 Some things will get removed, rewritten, broken, fixed, or replaced.
 
+---
 
