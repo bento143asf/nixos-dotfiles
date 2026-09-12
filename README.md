@@ -34,7 +34,7 @@ This is **not a configuration made for popularity, stars, or ricing competitions
 
 ---
 
-## What's Inside (simplified)
+## What's Inside
 
 ```text
 Nix-Dots
