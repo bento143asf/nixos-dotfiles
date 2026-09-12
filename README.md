@@ -97,7 +97,6 @@ Nix-Dots
 │           ├── telescope.lua
 │           └── treesitter.lua
 ├── README.md
-├── README.md.save
 ├── Screenshots
 │   ├── desktop.png
 │   ├── emptydesk.png
@@ -116,7 +115,7 @@ Nix-Dots
     └── kitty
         ├── colors.conf
         └── kitty.conf
-```
+````
 
 ---
 
